@@ -1,6 +1,7 @@
 # Steam Bio Updater
 
 Makes it possible to update the steam bio automatically every minute.
+![Image of Program](https://o11.dev/steamupdaterimage.PNG)
 
 ### Formats
 You can use the normal Steam formatting
