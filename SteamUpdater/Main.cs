@@ -28,8 +28,8 @@ namespace SteamCoronaUpdater
 
         private void Togglebtn_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.bioCache = biotbx.Text;
-            Properties.Settings.Default.Save();
+            SteamUpdater.Properties.Settings.Default.bioCache = biotbx.Text;
+            SteamUpdater.Properties.Settings.Default.Save();
 
             if (BioUpdater.Enabled == false)
             {
@@ -329,7 +329,7 @@ namespace SteamCoronaUpdater
                         passwordtbx.Hide();
                         loginbtn.Hide();
                         loggedInPanel.Show();
-                        biotbx.Text = Properties.Settings.Default.bioCache;
+                        biotbx.Text = SteamUpdater.Properties.Settings.Default.bioCache;
                         Togglebtn.Enabled = false;
                         Togglebtn.Text = "localizing.";
                         WaitNSeconds(1);
