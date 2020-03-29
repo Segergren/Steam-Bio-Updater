@@ -16,6 +16,7 @@ Example:
 * [url=][/url]
 
 Currenly supporting Corona cases and current time. **More to come** and let me know if you want a specific integration.
+
 **Country**
 * ({Country}|cases)
 * ({Country}|critical)
