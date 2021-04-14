@@ -1,3 +1,5 @@
+# THIS DOES NOT WORK ANYMORE BECAUSE OF THE NEW STEAM UI UPDATE
+
 # Steam Bio Updater
 
 Makes it possible to update the steam bio automatically every minute.
