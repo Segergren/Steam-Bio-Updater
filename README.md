@@ -3,7 +3,7 @@
 # Steam Bio Updater
 
 Makes it possible to update the steam bio automatically every minute.
-![Image of Program](https://o11.se/steamupdaterimage.PNG)
+![Image of Program](https://segergren.dev/projects/Steam_updater/steamupdaterimage.PNG)
 
 ### Setup
 Add a registry key of type REG_DWORD with name "Steam Updater.exe" and value 0x00002af9 (11001) in HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BROWSER_EMULATION.
